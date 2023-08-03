@@ -1,0 +1,100 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background: linear-gradient(to right top, #5401a7, #310266, #160140, #8952d1, rgb(83, 2, 189));
+height: 100%;
+}
+
+.header
+{
+	color:  rgba(199, 252, 225, 0.8); font-family: 'League Spartan';font-size: 45px;letter-spacing: 5px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: linear-gradient(to left top, #4d71a4, #428d86, #2f819a, #3963a7, rgb(1, 111, 102));float: none;border-radius: 15px; font-family: 'League Spartan';
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#loginButton
+{
+	width: 30%;border-radius: 15px; 
+
+}
+
+
+
+.roomName
+{
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'League Spartan';
+}
+
+
+#logout
+{
+	font-size: 20px; float: right; font-family: 'League Spartan';
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: linear-gradient(to left top, #0146a7, #023b66, #026b8b, #002e47, rgb(1, 177, 163));border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 50%;
+}
+
+.input_div label
+{
+	color: white; font-size: 20px; font-family: 'League Spartan';
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8); font-family: 'League Spartan';
+}
+.input_div_message_page label
+{
+	color: rgb(255, 255, 255); font-family: 'League Spartan';
+}
+.input_div_message_page #msg
+{
+	width: 50%; font-family: 'League Spartan';
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%;
+	font-family: 'League Spartan'; 
+}
+.color_white
+{
+	color: rgb(172, 227, 255); font-family: 'League Spartan'; 
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px; color:rgb(255, 255, 255);
+}
